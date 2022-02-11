@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'FGM';
+	src: url('fonts/framd.eot');
+	src: local('☺'), url('fonts/framd.woff') format('woff'), url('fonts/framd.ttf') format('truetype'), url('fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+  background: #333366;
+  width: 100%;
+  height: 60px;
+}
+.main{
+  background-image: url(../photo/man.png), url(../photo/fon.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100%-60px);
+}
+.logo{
+  font-size: 18px;
+  color: #fff;
+  justify-content: center;
+  margin-top: 15px;
+  display: flex;
+}
+.menu li{
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  justify-content: space-around;
+  display: inline;
+  padding: 2%;
+}
+.menu{
+  margin-top: 15px;
+}
+.dropdown{
+  margin-top: 10px;
+}
+.white-btn{
+  color: #fff;
+}
+.main{
+  font-size: 60px;
+  display: flex;
+  color: #333366;
+}
+h1{
+  width: 100%;
+  height: 100%;
+}
