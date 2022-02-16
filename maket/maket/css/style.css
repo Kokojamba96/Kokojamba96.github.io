@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'FGM';
+	src: url('fonts/framd.eot');
+	src: local('☺'), url('fonts/framd.woff') format('woff'), url('fonts/framd.ttf') format('truetype'), url('fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('fonts/ofont.ru_Calibri.eot');
+	src: local('☺'), url('fonts/ofont.ru_Calibri.woff') format('woff'), url('fonts/ofont.ru_Calibri.ttf') format('truetype'), url('fonts/ofont.ru_Calibri.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+  background: #333366;
+  width: 100%;
+  height: 60px;
+}
+/*bg in 1-st panel*/
+main{
+  background-image: url(../photo/fon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+/*man in 1-st panel*/
+.zagolovok{
+  background-image: url(../photo/man.png);
+  width: 100%;
+  height: 100%;
+  background-position: 90% 50px;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+h1{
+  display: flex;
+  text-align: center;
+  font-size: 60px;
+  color: #333366;
+  margin-top: 40%;
+  margin-left: 4%;
+}
+/*full stack web*/
+.stack{
+  font-size: 16px;
+  color: #669999;
+  margin-top: 15px;
+}
+/*Andrew Brown*/
+.logo{
+  font-size: 18px;
+  color: #fff;
+  justify-content: center;
+  margin-top: 15px;
+  display: flex;
+}
+/*service list*/
+.menu-top li{
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  justify-content: space-around;
+  display: inline;
+  padding: 2%;
+}
+/*all for optimisation*/
+.menu-top{
+  margin-top: 16px;
+}
+
+.dropdown{
+  margin-top: 10px;
+}
+
+.white-btn:visited{
+  color: #fff;
+}
+/*all for optimisation*/
+
+.buttons{
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.buttons input{
+  color: #669999;
+  background: none;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #669999;
+}
+
+.obo_mne h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 110px;
+  font-size: 25px;
+}
+
+.Line1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.manbg{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.loremab1{
+  font-size: 14px;
+  font-family: Calibri, sans-serif,serif;
+  text-align: center;
+  margin-top: 25px;
+  color: #333366;
+}
+
+.loremab2{
+  font-size: 14px;
+  font-family: Calibri, sans-serif,serif;
+  text-align: center;
+  margin-top: 25px;
+  color: #333366;
+}
+
+.download_resume{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.download_resume input{
+  padding: 15px 11px 15px 30px;
+  background: none;
+  color: #669999;
+  text-align: center;
+  border: 2px solid;
+}
